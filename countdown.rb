@@ -12,7 +12,7 @@ def countdown_with_sleep
   x = 7
   while x != 0
     puts "loop loop"
-    sleep 2
+    sleep 1
     x -= 1
   end
 end
