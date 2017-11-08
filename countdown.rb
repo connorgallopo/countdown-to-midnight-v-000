@@ -11,8 +11,8 @@ end
 def countdown_with_sleep
   x = 7
   while x != 0
-    sleep (1)
     puts "sloooow down"
+    sleep
     x -= 1
   end
 end
